@@ -22,7 +22,8 @@ My thinking style is Abstract Random with Abstract Sequential. I was very surpri
 
 Looking forward to meet you guys in person and see you in hangout!!
 
-GitHub site: http://marekpwk.github.io/
+GitHub site: http://marekpwk.github.io
+
 Reflection file: https://github.com/marekpwk/phase_0_unit_1/blob/master/week_1/7_get_to_know_your_group/my_reflection.md
 
 Marek
