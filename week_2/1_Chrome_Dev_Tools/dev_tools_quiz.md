@@ -1,7 +1,7 @@
 #### Include an inline screenshot of your codeschool's points from the profile page:
 
 <!-- Modify the Markdown to include your answers. Don't delete the questions! -->
-![Code School - points](http://i.imgur.com/W1nTNyO.png)
+![Code School - points](http://i.imgur.com/OdcXnaA.png?1)
 
 ##QUIZ
 * Explain which tabs support the following actions and how.
