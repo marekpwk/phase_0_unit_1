@@ -13,6 +13,17 @@
  // move down
  // attack
 
+this.moveDown();
+this.moveDown();
+this.moveRight();
+this.moveUp();
+this.moveUp();
+this.moveRight();
+this.moveRight();
+this.moveDown();
+this.attackNearbyEnemy();
+
+
 // Greab the Mushroom
 //
 // move up
@@ -20,6 +31,11 @@
 // move left
 // move up
 // attack
+this.moveUp();
+this.moveRight();
+this.moveLeft();
+this.moveUp();
+this.attackNearbyEnemy();
 
 // Drink me
 //
@@ -29,7 +45,12 @@
 // move up
 // move right
 // attack
-
+this.attackNearbyEnemy();
+this.moveRight();
+this.moveDown();
+this.moveUp();
+this.moveRight();
+this.attackNearbyEnemy();
 
 // Taunt the guards
 //
