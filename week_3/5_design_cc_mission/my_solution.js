@@ -51,9 +51,73 @@
 // END IF
 
 
-var level = [];
-// Initial Code
-// knight object
+// var level = [];
+// // Initial Code
+// // knight object
+// var current_pos = 0;
+// var knight = {
+//   name: "Arthur",
+//   health_level: 100,
+//   attack_strength: 35,
+//   move : function(){ // moves knight by 1
+//     current_pos += 1;
+//     level1[current_pos] = knight.name;
+//     level1[current_pos-1] = "_";
+//     console.log(level1);
+//     }
+//   };
+
+// // dragon object
+// var dragon = {
+//   name: "Sean The Dragon",
+//   health_level: 100,
+//   attack_strength: 10,
+
+//  }
+
+// // attack method
+// var attack = function(object){
+//   object.health_level -= this.attack_strength
+// }
+
+// knight.attack = attack;
+// dragon.attack = attack;
+// var princess = "princess";
+// var level1 = [knight.name,"","",dragon.name, princess];
+
+
+// while(level1[current_pos + 1] != dragon.name){
+//   knight.move()
+// }
+// console.log("Dragon is very close...fight " + knight.name + "!!!");
+
+// while(knight.health_level > 0 && dragon.health_level > 0){
+//   knight.attack(dragon);
+//   dragon.attack(knight);
+// }
+
+// console.log("Knight: "+knight.health_level);
+// console.log("Dragon: "+ dragon.health_level);
+// if (dragon.health_level <= 0){
+//   while(level1[current_pos + 1] != "princess"){
+//       knight.move();
+//   }
+//   console.log("The knight won and rescued the princess. THE END!!!")
+// }
+
+
+
+
+
+
+// Refactored Code
+
+knightH = document.getElementById("knight");
+var user_color = prompt("Enter color");
+knightH.style.background = user_color;
+
+knightH.style.margin = "200px";
+var level = [];// knight object
 var current_pos = 0;
 var knight = {
   name: "Arthur",
@@ -63,7 +127,7 @@ var knight = {
     current_pos += 1;
     level1[current_pos] = knight.name;
     level1[current_pos-1] = "_";
-    console.log(level1);
+    document.write(level1);
     }
   };
 
@@ -89,30 +153,21 @@ var level1 = [knight.name,"","",dragon.name, princess];
 while(level1[current_pos + 1] != dragon.name){
   knight.move()
 }
-console.log("Dragon is very close...fight " + knight.name + "!!!");
+document.write("Dragon is very close...fight " + knight.name + "!!!");
 
 while(knight.health_level > 0 && dragon.health_level > 0){
   knight.attack(dragon);
   dragon.attack(knight);
 }
 
-console.log("Knight: "+knight.health_level);
-console.log("Dragon: "+ dragon.health_level);
+document.write("Knight: "+knight.health_level);
+document.write("Dragon: "+ dragon.health_level);
 if (dragon.health_level <= 0){
   while(level1[current_pos + 1] != "princess"){
       knight.move();
   }
-  console.log("The knight won and rescued the princess. THE END!!!")
+  document.write("The knight won and rescued the princess. THE END!!!")
 }
-
-
-
-
-
-
-// Refactored Code
-
-
 
 
 
