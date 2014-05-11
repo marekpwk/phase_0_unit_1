@@ -1,4 +1,4 @@
-// This is a Solo Challenge. 
+// This is a Solo Challenge.
 
 // There is a section below where you will write your code.
 // Do not alter this object here.
@@ -13,54 +13,69 @@ var terah = {
   eyeColor: "brown"
 }
 /* Pseudocode Section - write pseudocode for each challenge below.
-1. Define a variable adam and use object literal notation to assign this variable 
+1. Define a variable adam and use object literal notation to assign this variable
    the value of a JavaScript Object object with no properties.
+  INITIALIZE adam as an object
 
 2. Give adam a name property with the value "Adam".
+  ADD to adam property name with value "Adam"
 
 3. Add a spouse property to terah and assign it the value of adam.
+  ADD to terah spouse property and asign object adam
 
 4. Change the value of the terah weight property to 125.
+  CHANGE the value of terah weight to 125
 
 5. Remove the eyeColor property from terah.
+  DELETE terah eye property
 
 6. Add a spouse property to adam and assign it the value of terah.
+  ADD to adam spouse property and asign object terah
 
-7. Add a children property to terah and and use object literal notation to assign 
+7. Add a children property to terah and and use object literal notation to assign
    this variable the value of a JavaScript Object object with no properties
+   ADD to terah children property
+   INIT as an object
 
-8. Add a carson property to the value of the terah children property and assign it 
+8. Add a carson property to the value of the terah children property and assign it
   the value of an object with the property name with a value of "Carson".
+  ADD carson property to children
+  ADD object with property name and value "Carson" to children
 
-9. Add a carter property to the value of the terah children property and assign it 
+9. Add a carter property to the value of the terah children property and assign it
    the value of an object with the property name with a value of "Carter".
+     ADD object with property name and value "Carter" to children
 
-10. Add a colton property to the value of the terah children property and assign it 
+10. Add a colton property to the value of the terah children property and assign it
     the value of an object with the property name with a value of "Colton".
+     ADD object with property name and value "Colton" to children
 
 11. Add a children property to adam and assign it the value of terah children.
-
+   ADD children property to adam
+   ASIGN value of terah children to adam children
 
 */
 
 // __________________________________________
 // Write your code below.
-
-
-
-
-
-
+var adam = {};
+adam.name = "Adam";
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+adam.spouse = terah;
+terah.children = {};
+terah.children.carson = {name: "Carson"};
+terah.children.carter = {name: "Carter"};
+terah.children.colton = {name: "Colton"};
+adam.children = terah.children;
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+// I this exercise we became acquainted with objects in Javascript,
+// I was confused how they work and how to construct them (actually I still am).
+// I also wrote more pseudocode , but I am not sure if it readable to others.
 
 
 // __________________________________________
