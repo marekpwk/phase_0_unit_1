@@ -55,3 +55,10 @@ function median(array){
 }
 
 median(array);
+
+
+// Reflection
+// This was our first group assignment, and we had a clear instruction what each person should do.
+// As a future developers we will  work in groups most of the time, and that was what we did in this assignment.
+// We also might just work on particular part of the project, not knowing the big picture and rely on code passed to us from another team,
+// so again good communication will play a big role in our work as the web developers.
