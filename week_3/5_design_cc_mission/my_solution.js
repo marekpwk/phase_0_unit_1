@@ -51,73 +51,9 @@
 // END IF
 
 
-// var level = [];
-// // Initial Code
-// // knight object
-// var current_pos = 0;
-// var knight = {
-//   name: "Arthur",
-//   health_level: 100,
-//   attack_strength: 35,
-//   move : function(){ // moves knight by 1
-//     current_pos += 1;
-//     level1[current_pos] = knight.name;
-//     level1[current_pos-1] = "_";
-//     console.log(level1);
-//     }
-//   };
-
-// // dragon object
-// var dragon = {
-//   name: "Sean The Dragon",
-//   health_level: 100,
-//   attack_strength: 10,
-
-//  }
-
-// // attack method
-// var attack = function(object){
-//   object.health_level -= this.attack_strength
-// }
-
-// knight.attack = attack;
-// dragon.attack = attack;
-// var princess = "princess";
-// var level1 = [knight.name,"","",dragon.name, princess];
-
-
-// while(level1[current_pos + 1] != dragon.name){
-//   knight.move()
-// }
-// console.log("Dragon is very close...fight " + knight.name + "!!!");
-
-// while(knight.health_level > 0 && dragon.health_level > 0){
-//   knight.attack(dragon);
-//   dragon.attack(knight);
-// }
-
-// console.log("Knight: "+knight.health_level);
-// console.log("Dragon: "+ dragon.health_level);
-// if (dragon.health_level <= 0){
-//   while(level1[current_pos + 1] != "princess"){
-//       knight.move();
-//   }
-//   console.log("The knight won and rescued the princess. THE END!!!")
-// }
-
-
-
-
-
-
-// Refactored Code
-
-knightH = document.getElementById("knight");
-var user_color = prompt("Enter color");
-knightH.style.background = user_color;
-
-knightH.style.margin = "200px";
-var level = [];// knight object
+var level = [];
+// Initial Code
+// knight object
 var current_pos = 0;
 var knight = {
   name: "Arthur",
@@ -127,7 +63,7 @@ var knight = {
     current_pos += 1;
     level1[current_pos] = knight.name;
     level1[current_pos-1] = "_";
-    document.write(level1);
+    console.log(level1);
     }
   };
 
@@ -153,31 +89,38 @@ var level1 = [knight.name,"","",dragon.name, princess];
 while(level1[current_pos + 1] != dragon.name){
   knight.move()
 }
-document.write("Dragon is very close...fight " + knight.name + "!!!");
+console.log("Dragon is very close...fight " + knight.name + "!!!");
 
 while(knight.health_level > 0 && dragon.health_level > 0){
   knight.attack(dragon);
   dragon.attack(knight);
 }
 
-document.write("Knight: "+knight.health_level);
-document.write("Dragon: "+ dragon.health_level);
+console.log("Knight: "+knight.health_level);
+console.log("Dragon: "+ dragon.health_level);
 if (dragon.health_level <= 0){
   while(level1[current_pos + 1] != "princess"){
       knight.move();
   }
-  document.write("The knight won and rescued the princess. THE END!!!")
+  console.log("The knight won and rescued the princess. THE END!!!")
 }
 
 
 
 
+
+
+// Refactored Code
+// The code works and it is pretty simple , I couldn't find anything to refactor.
+
+
+
 // Reflection
-//
-//
-//
-//
-//
-//
+// Designing a game can be very challenging , even the simple one.
+// While working on assignment, we had to think how objects will interact witch each other,
+// what properties they should have, how to simulate movement and so on.
+// The other thing I learnt is that its good to stick to pseudo code,
+// and not differ from it to much. At some point our simple game got more complicated than we originally wanted,
+// and our knowledge level at this point wasn't enough to finish it, so we had to re-factor and get back to the origin.
 
 
