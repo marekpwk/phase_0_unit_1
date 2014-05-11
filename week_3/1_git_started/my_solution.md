@@ -1,44 +1,46 @@
 ## Release 2: Basic Git Commands
-Define the following commands and describe how they work/what they do.  
+Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+  Add file contents to the index
 
 #### branch
-<!-- Your defnition here -->
+  Add file contents to the index
 
 #### checkout
-<!-- Your defnition here -->
+  Add file contents to the index
 
 #### clone
-<!-- Your defnition here -->
+  Clone a repository into a new directory
 
 #### commit
-<!-- Your defnition here -->
+  Record changes to the repository
 
 #### fetch
-<!-- Your defnition here -->
+  Download objects and refs from another repository
 
 #### log
-<!-- Your defnition here -->
-
+  Show commit logs
 #### merge
-<!-- Your defnition here -->
+  Join two or more development histories together
 
 #### pull
-<!-- Your defnition here -->
+  Fetch from and merge with another repository or a local branch
 
 #### push
-<!-- Your defnition here -->
+  Update remote refs along with associated objects
+
 
 #### reset
-<!-- Your defnition here -->
+  Update remote refs along with associated objects
+
 
 #### rm
-<!-- Your defnition here -->
+ Remove files from the working tree and from the index
 
 #### status
+  Remove files from the working tree and from the index
 
 
 ## Release 4: Git Workflow
@@ -48,3 +50,5 @@ Define the following commands and describe how they work/what they do.
 - Commit locally
 
 ## Release 5: Reflection
+
+As I mentioned in my other reflections about git and github, I've already been using git with command line, still just a few basic commands, but they do the work. Slowly I am starting to get into the habit of committing my working files regularly.
