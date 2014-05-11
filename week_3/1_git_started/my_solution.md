@@ -40,7 +40,7 @@ Define the following commands and describe how they work/what they do.
  Remove files from the working tree and from the index
 
 #### status
-  Remove files from the working tree and from the index
+  Remove files from the working tree and from the indexk
 
 
 ## Release 4: Git Workflow
