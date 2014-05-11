@@ -1,40 +1,43 @@
-// I paired [by myself, with:] on this challenge.
+// I paired [by myself] on this challenge.
 
 
 
 
 // Pseudocode
-// 
-// 
-// 
-// 
+//INIT variable secretNumber with a number
+//INIT variable password with a string
+//INIT variable allowedIn with a boolean value
+//ININT memmbers array
+//ADD  "John" at index 0
+//ADD  "Mary" at index 3
+//
 
 
 // __________________________________________
-// Write your code below.
+Write your code below.
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false ;
+var members = [];
+members[0] = "John";
+members[3] = "Mary";
 
-
-
+// _________________________________________
+// Refactored Code: Include a refactored version (or justification of your original code) here.
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false ;
+var members = ["John",,,"Mary"];
 
 
 
 
 // __________________________________________
-// Refactored Code: Include a refactored version (or justification of your original code) here. 
-
-
-
-
-
-// __________________________________________
-// Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
-// 
-// 
-// 
-// 
-
+// Reflection: Use the reflection guidelines to write a reflection here.
+// It was really interesting challenge. In some way it reminded me playing video games and going thru different levels.
+// I think TDD is a very interesting concept. It might look like a waste of time and tedious work but
+// in a long run its a time and money saver. It helps eliminate bugs as soon as they appear, not at the end of development,
+// when it is much more expensive to fix them.
 
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
